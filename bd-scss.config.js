@@ -8,5 +8,7 @@ export default {
 		source: "https://github.com/Nexus-Themes/GH0STCH4TT3R",
 		invite: "aYxpgkvdvR",
         authorId: "801089753038061669"
-	}
+	},
+    fileName: "GH0STCH4TT3R",
+    baseImport: "https://nexus-themes.github.io/GH0STCH4TT3R/GH0STCH4TT3R.css"
 }
