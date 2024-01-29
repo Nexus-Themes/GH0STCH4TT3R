@@ -5,7 +5,7 @@ export default {
 		author: "Riddim-GLiTCH",
 		version: "1.0.0",
 		description: "A Futuristic theme with an edgy style",
-		source: "https://github.com/Riddim-GLiTCH/GH0STCH4TT3R",
+		source: "https://github.com/Nexus-Themes/GH0STCH4TT3R",
 		invite: "aYxpgkvdvR",
         authorId: "801089753038061669"
 	}
