@@ -655,7 +655,35 @@ body {
 }
 
 .container_b181b6 {
-  background-color: transparent !important;
+  background-color: rgba(0, 0, 0, 0.5) !important;
+  margin-top: 49px;
+  border: solid 1px rgb(var(--GC-accent));
+}
+
+body:has(.card__691f2):has(.chat__1d65d) .container_def45c {
+  position: absolute;
+  right: 0;
+  top: 50px;
+  bottom: 50px;
+  height: calc(100% - 51px);
+  border-bottom: solid 1px rgb(var(--GC-accent));
+  border-radius: 0;
+}
+body:has(.card__691f2):has(.chat__1d65d) .container__11d72:not(.title_b7d661) {
+  padding: 0;
+}
+
+body:has(.card__691f2):has(.chat__1d65d):has(.container_def45c) .content__1a4fe {
+  padding-right: 638px;
+}
+body:has(.card__691f2):has(.chat__1d65d):has(.container_def45c) .container__11d72 {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5) !important;
+  border-right: solid 1px rgb(var(--GC-accent));
+}
+body:has(.card__691f2):has(.chat__1d65d):has(.container_def45c) .title_b7d661 {
+  position: absolute;
+  min-width: calc(100% - 347px);
 }
 
 .container_de798d {
@@ -739,6 +767,53 @@ body {
   background-position: top;
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.sidebar_ded4b5 .scroller_f0f183 {
+  margin-right: -10px;
+}
+.sidebar_ded4b5 .scroller_f0f183 .content__23cab {
+  width: 240px;
+}
+.sidebar_ded4b5 .scroller_f0f183 .content__23cab .containerDefault__23a29 {
+  border-bottom: 1px solid rgb(var(--GC-accent));
+  background: linear-gradient(rgba(0, 0, 0, 0) 65%, rgba(var(--GC-accent), 0.5) 99.9%);
+  margin-left: 0;
+  margin-right: 0 !important;
+}
+
+.container_b2ce9c .membersWrap__90226 .members__9f47b {
+  margin-left: 15px;
+  width: 370px !important;
+}
+.container_b2ce9c .membersWrap__90226 .members__9f47b .content__23cab {
+  width: 355px;
+}
+.container_b2ce9c .membersWrap__90226 .members__9f47b .content__23cab .membersGroup__85843 {
+  border-bottom: 1px solid rgb(var(--GC-accent));
+  background: linear-gradient(rgba(0, 0, 0, 0) 65%, rgba(var(--GC-accent), 0.5) 99.9%);
+  margin-left: 0;
+  margin-right: 0 !important;
+}
+
+.sidebar_ded4b5 .containerDefault__3187b .link__95dc0 {
+  transition: all ease-in-out 0.3s;
+  margin-right: 10px;
+}
+.sidebar_ded4b5 .containerDefault__3187b .link__95dc0:hover {
+  background: none;
+}
+.sidebar_ded4b5 .containerDefault__3187b .link__95dc0:hover:before {
+  background: rgba(var(--GC-accent), 0.2);
+  filter: blur(5px);
+}
+.sidebar_ded4b5 .containerDefault__3187b:has(.modeSelected__487d6) .link__95dc0 {
+  background-color: rgba(var(--GC-accent), 0.2);
+  border: 3px inset rgb(var(--GC-accent));
+}
+.sidebar_ded4b5 .containerDefault__3187b:has(.modeSelected__487d6) .link__95dc0:hover ::before {
+  background: rgba(var(--GC-accent), 0.3);
+  filter: none;
 }
 
 /* Move the user area to the top right*/
@@ -1288,6 +1363,16 @@ img[class*=emoji_] {
   border-color: none;
 }
 
+.chat__52833 .profilePanel__12596 {
+  margin-right: 5px;
+}
+.chat__52833 .profilePanel__12596 .userPanelOuter__880e5 {
+  width: 355px !important;
+}
+.chat__52833:has(.profilePanel__12596) .title_b7d661 {
+  width: calc(100% - 355px);
+}
+
 .scroller__750f5 {
   padding: 6px 8px;
   margin: -10px;
@@ -1337,4 +1422,118 @@ img[class*=emoji_] {
 #app-mount .info__755e1 .line__75801:nth-last-child(3):before {
   content: "by Riddim_GLiTCH";
   display: block;
+}
+
+.characterBackground__2820f .artwork__8fc92 {
+  display: none;
+}
+.characterBackground__2820f .wrapper__2d9b1 .authBox__7196a:has(.accountCard_b2af27) {
+  background-color: rgba(0, 0, 0, 0.5);
+  background-image: url("https://raw.githubusercontent.com/Nexus-Themes/GH0STCH4TT3R/master/assets/Titlebar-icon.png");
+  background-position: center 20px;
+  background-size: 20%;
+  background-repeat: no-repeat;
+  padding-top: 140px;
+  border: solid 1px rgb(var(--GC-accent));
+}
+.characterBackground__2820f .wrapper__2d9b1 .authBox__7196a:has(.accountCard_b2af27) .centeringWrapper__319b0::before {
+  margin-top: 20px;
+  content: "Welcome to GH0STCH4TT3R";
+  font-size: 30px;
+  font-weight: bolder;
+}
+.characterBackground__2820f .wrapper__2d9b1 .authBox__7196a:has(.accountCard_b2af27) .centeringWrapper__319b0 .list__4e6aa {
+  background-color: rgba(0, 0, 0, 0.5);
+  margin: 5px;
+}
+.characterBackground__2820f .wrapper__2d9b1 .authBox__7196a:has(.accountCard_b2af27) .centeringWrapper__319b0 .list__4e6aa .accountCard_b2af27 {
+  background: linear-gradient(to left, rgba(var(--GC-accent), 0.2) 20%, rgba(0, 0, 0, 0) 75%);
+  border-radius: 5px;
+  border: solid 1px rgb(var(--GC-accent));
+}
+.characterBackground__2820f .wrapper__2d9b1 .authBox__7196a:has(.accountCard_b2af27) .centeringWrapper__319b0 .list__4e6aa .accountCard_b2af27 .usernameSection_ccd090 .username__35d9d :first-child:before {
+  content: "@";
+  color: var(--header-secondary) !important;
+}
+.characterBackground__2820f .wrapper__2d9b1 .authBox__7196a:has(.accountCard_b2af27) .centeringWrapper__319b0 .list__4e6aa .accountCard_b2af27 .userActions__8fade .button_afdfd9 {
+  border: solid 1px rgb(var(--GC-accent));
+  background-color: rgba(var(--GC-accent), 0.2);
+}
+.characterBackground__2820f .wrapper__2d9b1 .authBox__7196a:has(.accountCard_b2af27) .centeringWrapper__319b0 .list__4e6aa .accountCard_b2af27 .userActions__8fade .button_afdfd9:hover {
+  background-color: rgba(var(--GC-accent), 0.4);
+  filter: drop-shadow(5px);
+}
+.characterBackground__2820f .wrapper__2d9b1 .authBox__7196a:has(.accountCard_b2af27) .centeringWrapper__319b0 .list__4e6aa .accountCard_b2af27 .wrapper_edb6e0 {
+  height: 64px;
+  width: 64px !important;
+  margin-left: -16px;
+  z-index: 1;
+}
+.characterBackground__2820f .wrapper__2d9b1 .authBox__7196a:has(.accountCard_b2af27) .centeringWrapper__319b0 .list__4e6aa .accountCard_b2af27 .wrapper_edb6e0 svg {
+  margin-top: -12px;
+  filter: none;
+  height: 64px;
+  width: 64px;
+  z-index: 1;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+}
+.characterBackground__2820f .wrapper__2d9b1 .authBox__7196a:has(.accountCard_b2af27) .centeringWrapper__319b0 .actions_dff0e0 .button_afdfd9 {
+  border: solid 1px rgb(var(--GC-accent));
+  background-color: rgba(var(--GC-accent), 0.2);
+  border-radius: 5px;
+}
+.characterBackground__2820f .wrapper__2d9b1 .authBox__7196a:has(.accountCard_b2af27) .centeringWrapper__319b0 .actions_dff0e0 .button_afdfd9:hover {
+  background-color: rgba(var(--GC-accent), 0.4);
+  filter: drop-shadow(5px);
+}
+.characterBackground__2820f .wrapper__2d9b1 .authBox__7196a:has(.accountCard_b2af27) .contents_fb6220 {
+  --button--underline-color: transparent!important;
+}
+.characterBackground__2820f .wrapper__2d9b1 .authBoxExpanded_e57789 {
+  background-color: rgba(0, 0, 0, 0.5);
+  border: solid 1px rgb(var(--GC-accent));
+}
+.characterBackground__2820f .wrapper__2d9b1 .authBoxExpanded_e57789 .mainLoginContainer__58502 .header_feace3 {
+  margin-top: 40px;
+}
+.characterBackground__2820f .wrapper__2d9b1 .authBoxExpanded_e57789 .mainLoginContainer__58502 .header_feace3::before {
+  content: "Welcome back to GH0STCH4TT3R!";
+  font-family: var(--font-display);
+  font-size: 24px;
+  line-height: 1.25;
+  font-weight: 600;
+}
+.characterBackground__2820f .wrapper__2d9b1 .authBoxExpanded_e57789 .mainLoginContainer__58502 .header_feace3::after {
+  content: "Please sign in with your Discord Account.";
+}
+.characterBackground__2820f .wrapper__2d9b1 .authBoxExpanded_e57789 .button__47891 {
+  border: solid 1px rgb(var(--GC-accent));
+  background-color: rgba(var(--GC-accent), 0.2);
+}
+.characterBackground__2820f .wrapper__2d9b1 .authBoxExpanded_e57789 .button__47891:hover {
+  background-color: rgba(var(--GC-accent), 0.4);
+  filter: drop-shadow(5px);
+}
+.characterBackground__2820f .wrapper__2d9b1 .authBoxExpanded_e57789 .input_d266e7 {
+  background-color: rgba(0, 0, 0, 0);
+}
+.characterBackground__2820f .wrapper__2d9b1 .authBoxExpanded_e57789 .inputWrapper__934f5 {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-bottom: 2px solid rgb(var(--GC-accent));
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.characterBackground__2820f .wrapper__2d9b1 .authBoxExpanded_e57789 .header_feace3 .heading-xl-semibold__18cc2, .characterBackground__2820f .wrapper__2d9b1 .authBoxExpanded_e57789 .header_feace3 .text-md-normal__4afad {
+  display: none;
+}
+.characterBackground__2820f .wrapper__2d9b1 .authBoxExpanded_e57789 .goBackButton__8dc9e {
+  position: absolute;
+  top: 20px;
+}
+.characterBackground__2820f .wrapper__2d9b1 .authBoxExpanded_e57789 .smallRegisterLink__04c66 {
+  display: inline;
+}
+.characterBackground__2820f .wrapper__2d9b1 .authBoxExpanded_e57789 .smallRegisterLink__04c66 ::after {
+  content: " with Discord";
 }
