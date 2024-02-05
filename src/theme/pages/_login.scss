@@ -3,8 +3,7 @@
         display: none;
     }
     .wrapper__2d9b1 {
-        .authBox__7196a {
-
+        .authBox__7196a:has(.accountCard_b2af27) {
             background-color: rgba(0, 0, 0, 0.5);
             background-image: url('https://raw.githubusercontent.com/Nexus-Themes/GH0STCH4TT3R/master/assets/Titlebar-icon.png');
             background-position: center 20px;
@@ -77,6 +76,53 @@
             .contents_fb6220 {
                 --button--underline-color: transparent!important;
             }
-        }        
+        }
+        .authBoxExpanded_e57789 {
+            background-color: rgba(0, 0, 0, 0.5);
+            border: solid 1px rgb(var(--GC-accent));
+            .mainLoginContainer__58502 .header_feace3 {
+                margin-top: 40px;
+                &::before {
+                    content: "Welcome back to GH0STCH4TT3R!";
+                    font-family: var(--font-display);
+                    font-size: 24px;
+                    line-height: 1.25;
+                    font-weight: 600;
+                }
+                &::after {
+                    content: "Please sign in with your Discord Account.";
+                }
+            }
+            .button__47891 {
+                border: solid 1px rgb(var(--GC-accent));
+                background-color: rgba(var(--GC-accent), .2);
+                &:hover {
+                    background-color: rgba(var(--GC-accent), .4);
+                    filter: drop-shadow(5px);
+                }
+            }
+            .input_d266e7 {
+                background-color: rgba(0, 0, 0, .0);
+            }
+            .inputWrapper__934f5 {
+                background-color: rgba(0, 0, 0, 0.5);
+                border-bottom: 2px solid rgb(var(--GC-accent));
+                border-top-left-radius: 5px;
+                border-top-right-radius: 5px;
+            }
+            .header_feace3 .heading-xl-semibold__18cc2, .header_feace3 .text-md-normal__4afad {
+                display: none;
+            }
+            .goBackButton__8dc9e {
+                position: absolute;
+                top: 20px;
+            }
+            .smallRegisterLink__04c66 {
+                display: inline;
+                ::after {
+                    content: " with Discord";
+                }
+            }
+        }
     }
 }
