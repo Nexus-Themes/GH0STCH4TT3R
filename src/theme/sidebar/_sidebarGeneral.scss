@@ -113,3 +113,27 @@
     }
   }
 }
+
+
+// Selected Channel redesign
+.sidebar_ded4b5 .containerDefault__3187b {
+  .link__95dc0 {
+    transition: all ease-in-out 0.3s;
+    margin-right: 10px;
+    &:hover {
+      background: none;
+      &:before {
+        background: rgba(var(--GC-accent), .2);
+        filter: blur(5px);
+      }
+    }
+  }
+  &:has(.modeSelected__487d6) .link__95dc0{
+    background-color: rgba(var(--GC-accent), 0.2);
+    border: 3px inset rgb(var(--GC-accent));
+    &:hover ::before{
+      background: rgba(var(--GC-accent), .3);
+      filter: none;
+    }
+  }
+} 
