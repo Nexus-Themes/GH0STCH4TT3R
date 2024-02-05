@@ -1,0 +1,82 @@
+.characterBackground__2820f {
+    .artwork__8fc92{
+        display: none;
+    }
+    .wrapper__2d9b1 {
+        .authBox__7196a {
+
+            background-color: rgba(0, 0, 0, 0.5);
+            background-image: url('https://raw.githubusercontent.com/Nexus-Themes/GH0STCH4TT3R/master/assets/Titlebar-icon.png');
+            background-position: center 20px;
+            background-size: 20%;
+            background-repeat: no-repeat;
+            padding-top: 140px;
+            border: solid 1px rgb(var(--GC-accent));
+                .centeringWrapper__319b0 {
+                &::before{
+                    margin-top: 20px;
+                    content: "Welcome to GH0STCH4TT3R";
+                    font-size: 30px;
+                    font-weight: bolder;
+                }
+                .list__4e6aa {
+                    background-color: rgba(0, 0, 0, 0.5);
+                    margin: 5px;
+                    .accountCard_b2af27 {
+                        background: linear-gradient(to left, rgba(var(--GC-accent), .2) 20%, rgba(0, 0, 0, 0) 75%);
+                        border-radius: 5px;
+                        border: solid 1px rgb(var(--GC-accent));
+                        .usernameSection_ccd090 {
+                            .username__35d9d {
+                                :first-child:before{
+                                    content: "@";
+                                    color: var(--header-secondary)!important;
+                                }
+                            }
+                        }
+                        .userActions__8fade {
+                            .button_afdfd9{
+                                border: solid 1px rgb(var(--GC-accent));
+                                background-color: rgba(var(--GC-accent), .2);
+                                &:hover {
+                                    background-color: rgba(var(--GC-accent), .4);
+                                    filter: drop-shadow(5px);
+                                }
+                            }
+                        }
+                        .wrapper_edb6e0 {
+                            height: 64px;
+                            width: 64px!important;
+                            margin-left: -16px;
+                            z-index: 1;
+                            svg {
+                                margin-top: -12px;
+                                filter: none;
+                                height: 64px;
+                                width: 64px;
+                                z-index: 1;
+                                border-bottom-left-radius: 5px;
+                                border-top-left-radius: 5px;
+
+                            }
+                        }
+                    }
+                }
+                .actions_dff0e0 {
+                    .button_afdfd9 {
+                        border: solid 1px rgb(var(--GC-accent));
+                        background-color: rgba(var(--GC-accent), .2);
+                        border-radius: 5px;
+                        &:hover {
+                            background-color: rgba(var(--GC-accent), .4);
+                            filter: drop-shadow(5px);
+                        }
+                    }
+                }
+            }
+            .contents_fb6220 {
+                --button--underline-color: transparent!important;
+            }
+        }        
+    }
+}
