@@ -297,3 +297,18 @@ img[class*="emoji_"] {
 .rolePillBorder__00c58 {
   border-color: none;
 }
+
+// Resize in DM window
+.chat__52833 {
+  .profilePanel__12596 {
+    margin-right: 5px;
+    .userPanelOuter__880e5{
+      width: 355px!important;
+    }
+  }
+  &:has(.profilePanel__12596) {
+    .title_b7d661 {
+      width: calc(100% - 355px);
+    }
+  }
+}
