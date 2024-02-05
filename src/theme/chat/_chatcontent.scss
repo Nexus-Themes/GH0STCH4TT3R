@@ -11,5 +11,36 @@
 
 //fix forums
 .container_b181b6 {
-  background-color: transparent !important;
+  background-color: rgba(0, 0, 0, 0.5) !important;
+  margin-top: 49px;
+  border: solid 1px rgb(var(--GC-accent));
+}
+//top bar fix for when chat is open in side view with forums
+body:has(.card__691f2):has(.chat__1d65d) {
+  .container_def45c {
+    position: absolute;
+    right: 0;
+    top: 50px;
+    bottom: 50px;
+    height: calc(100% - 51px);
+    border-bottom: solid 1px rgb(var(--GC-accent));
+    border-radius: 0;
+  }
+  .container__11d72:not(.title_b7d661) {
+    padding: 0;
+  }
+}
+body:has(.card__691f2):has(.chat__1d65d):has(.container_def45c) {
+  .content__1a4fe {
+    padding-right: 638px;
+  }
+  .container__11d72 {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5)!important;
+    border-right: solid 1px rgb(var(--GC-accent));
+  }
+  .title_b7d661 {
+    position: absolute;
+    min-width: calc(100% - 347px);
+  }
 }
