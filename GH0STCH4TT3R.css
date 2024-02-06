@@ -1420,8 +1420,66 @@ img[class*=emoji_] {
 }
 
 #app-mount .info__755e1 .line__75801:nth-last-child(3):before {
-  content: "by Riddim_GLiTCH";
+  content: "by Nexus Themes";
   display: block;
+}
+
+#my-account-tab > div > div:nth-child(1) > div.sectionTitle_e32631 > h2 {
+  font-size: 0px;
+  line-height: 0px;
+}
+#my-account-tab > div > div:nth-child(1) > div.sectionTitle_e32631 > h2:before {
+  content: "Your Discrd Account";
+  font-size: 35px;
+  font-weight: bolder;
+  line-height: 24px;
+}
+
+#my-account-tab .accountProfileCard__22589 {
+  background-color: rgba(0, 0, 0, 0.5);
+  border: inset 2px rgb(var(--GC-accent));
+}
+#my-account-tab .accountProfileCard__22589 .bannerSVGWrapper__3e7b0 foreignObject {
+  -webkit-mask-image: none;
+          mask-image: none;
+}
+#my-account-tab .accountProfileCard__22589 .userInfo__8f826 .avatar__6c108, #my-account-tab .accountProfileCard__22589 .userInfo__8f826 .wrapper_edb6e0, #my-account-tab .accountProfileCard__22589 .userInfo__8f826 foreignObject {
+  border: solid 1px rgb(var(--GC-accent));
+  border-radius: 5px !important;
+  top: 100px;
+}
+#my-account-tab .accountProfileCard__22589 .userInfo__8f826 .button_afdfd9 {
+  border: solid 1px rgb(var(--GC-accent));
+  background-color: rgba(var(--GC-accent), 0.2);
+}
+#my-account-tab .accountProfileCard__22589 .userInfo__8f826 .button_afdfd9:hover {
+  background-color: rgba(var(--GC-accent), 0.4);
+  filter: drop-shadow(5px);
+}
+#my-account-tab .accountProfileCard__22589 .userInfo__8f826 .overflowMenuIcon__91663 {
+  display: none;
+}
+#my-account-tab .accountProfileCard__22589 .fieldList_aab0de .usernameRow_ad2fb4 .usernameInnerRow__7f209::before {
+  content: "@";
+}
+#my-account-tab .accountProfileCard__22589 .fieldList_aab0de .fieldButton_a93f59 {
+  border: solid 1px rgb(var(--GC-accent));
+  background-color: rgba(var(--GC-accent), 0.2);
+}
+#my-account-tab .accountProfileCard__22589 .fieldList_aab0de .fieldButton_a93f59:hover {
+  background-color: rgba(var(--GC-accent), 0.4);
+  filter: drop-shadow(5px);
+}
+#my-account-tab .accountProfileCard__22589 .fieldList_aab0de .removeButton__731bd {
+  border: solid 1px rgb(255, 0, 0);
+  background-color: rgba(255, 0, 0, 0.1);
+}
+#my-account-tab .accountProfileCard__22589 .fieldList_aab0de .removeButton__731bd:hover {
+  background-color: rgba(255, 0, 0, 0.2);
+  filter: drop-shadow(5px);
+}
+#my-account-tab .accountProfileCard__22589 .fieldList_aab0de .removeButton__731bd .contents_fb6220 {
+  color: rgb(252, 44, 44) !important;
 }
 
 .characterBackground__2820f .artwork__8fc92 {
