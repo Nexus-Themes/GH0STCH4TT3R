@@ -1,0 +1,48 @@
+.errorPage_da3c8d {
+    .title__73f9a {
+        color: rgb(var(--GC-accent));
+        font-size: 0;
+        &:before {
+            content: "GH0STCH4TT3R CRASHED";
+            font-size: 25px;
+        }
+    }
+    .note__35490 {
+        color: rgb(var(--GC-accent));
+        width: 500px;
+        margin-left: -5%;
+        margin-right: auto;
+        p{
+            font-size: 0;
+            line-height: 0;
+            &:first-child:before {
+                content: "The Discord core program encountered a pretty severe error and panicked.";
+                font-size: medium;
+            }
+            &:last-child:before {
+                content: "We suspect one of your addons may be causing issues. Try disabling some.";
+                font-size: medium;
+            }
+        }
+        &::after {
+            content: "Restart Discord to continue using GH0STCH4TT3R";
+        }
+    }
+    .button_afdfd9 {
+        border: solid 1px rgb(var(--GC-accent));
+        background-color: rgba(var(--GC-accent), .2);
+        &:hover {
+            background-color: rgba(var(--GC-accent), .4);
+            filter: drop-shadow(5px);
+        }
+    }
+    .image_dabcb8 {
+            background-image: url('https://raw.githubusercontent.com/Nexus-Themes/GH0STCH4TT3R/master/assets/ErrorNotice-Icon.png');
+            background-size: contain;
+            background-position: center;
+            background-repeat: no-repeat;
+    }
+}
+body:has(.errorPage_da3c8d) .wrapper__246a1 {
+    background-image: none;
+}
