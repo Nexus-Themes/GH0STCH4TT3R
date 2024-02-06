@@ -1,0 +1,65 @@
+#my-account-tab>div>div:nth-child(1)>div.sectionTitle_e32631>h2 {
+    font-size: 0px;
+    line-height: 0px;
+    &:before {
+        content: "Your Discrd Account";
+        font-size: 35px;
+        font-weight: bolder;
+        line-height: 24px;
+    }
+}
+#my-account-tab .accountProfileCard__22589 {
+    background-color: rgba(0, 0, 0, 0.5);
+    border: inset 2px rgb(var(--GC-accent));
+    .bannerSVGWrapper__3e7b0 {
+        foreignObject {
+            mask-image: none;
+        }
+    }
+    .userInfo__8f826 {
+        .avatar__6c108, .wrapper_edb6e0, foreignObject {
+            border: solid 1px rgb(var(--GC-accent));
+            border-radius: 5px!important;
+            top: 100px;
+        }
+        .button_afdfd9 {
+            border: solid 1px rgb(var(--GC-accent));
+            background-color: rgba(var(--GC-accent), .2);
+            &:hover {
+                background-color: rgba(var(--GC-accent), .4);
+                filter: drop-shadow(5px);
+            }
+        }
+        .overflowMenuIcon__91663 {
+            display: none;
+        }
+    }
+    .fieldList_aab0de {
+        .usernameRow_ad2fb4 {
+            .usernameInnerRow__7f209{
+                &::before{
+                    content: "@";
+                }
+            }
+        }
+        .fieldButton_a93f59 {
+            border: solid 1px rgb(var(--GC-accent));
+            background-color: rgba(var(--GC-accent), .2);
+            &:hover {
+                background-color: rgba(var(--GC-accent), .4);
+                filter: drop-shadow(5px);
+            }
+        }
+        .removeButton__731bd {
+            border: solid 1px rgb(255, 0, 0);
+            background-color: rgba(255, 0, 0, .1);
+            &:hover {
+                background-color: rgba(255, 0, 0, .2);
+                filter: drop-shadow(5px);
+            }
+            .contents_fb6220 {
+                color: rgb(252, 44, 44)!important;
+            }
+        }
+    }
+}
