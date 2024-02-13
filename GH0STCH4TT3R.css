@@ -686,6 +686,34 @@ body:has(.card__691f2):has(.chat__1d65d):has(.container_def45c) .title_b7d661 {
   min-width: calc(100% - 347px);
 }
 
+body:has(.prompt__1b100, .browser_c50ce0) .chat__52833 .content__1a4fe {
+  border-left: 1px solid rgb(var(--GC-accent));
+}
+body:has(.prompt__1b100, .browser_c50ce0) .chat__52833 .tabBar_d4764b {
+  margin-top: 70px;
+}
+body:has(.prompt__1b100, .browser_c50ce0) .chat__52833 .container__11d72:not(.title_b7d661) {
+  padding: 0;
+}
+body:has(.prompt__1b100, .browser_c50ce0) .chat__52833 .content__1a4fe, body:has(.prompt__1b100, .browser_c50ce0) .chat__52833 .chat__52833 {
+  background: rgba(0, 0, 0, 0.5);
+}
+body:has(.prompt__1b100, .browser_c50ce0) .chat__52833 .prompt__1b100 {
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 1px solid rgb(var(--GC-accent)) !important;
+}
+body:has(.prompt__1b100, .browser_c50ce0) .chat__52833 .prompt__1b100 .promptOptions__8e373 .optionButtonWrapper__4072c {
+  border: 2px dotted rgba(var(--GC-accent-muted), 0.2);
+}
+body:has(.prompt__1b100, .browser_c50ce0) .chat__52833 .prompt__1b100 .promptOptions__8e373 .optionButtonWrapper__4072c:hover {
+  background-color: rgba(var(--GC-accent), 0.2);
+  filter: drop-shadow(5px);
+}
+body:has(.prompt__1b100, .browser_c50ce0) .chat__52833 .prompt__1b100 .promptOptions__8e373 .selected__90dd8 {
+  background-color: rgba(var(--GC-accent-muted), 0.2);
+  border: 1px solid rgb(var(--GC-accent));
+}
+
 .container_de798d {
   color: rgb(var(--GC-accent));
 }
@@ -1381,18 +1409,7 @@ img[class*=emoji_] {
   background-position: bottom;
   background-size: cover;
   background-repeat: no-repeat;
-  -webkit-backdrop-filter: brightness(50%) !important;
-          backdrop-filter: brightness(50%) !important;
   text-shadow: 0 0 5px currentColor;
-  /*  clip-path: polygon(0 10px,
-            10px 0,
-            calc(100% - 10px) 0,
-            100% 10px,
-            100% calc(100% - 10px),
-            calc(100% - 10px) 100%,
-            10px 100%,
-            0% calc(100% - 10px),
-            0% 10px) !important; */
 }
 
 .colorDefault__0b482 {
@@ -1594,4 +1611,52 @@ img[class*=emoji_] {
 }
 .characterBackground__2820f .wrapper__2d9b1 .authBoxExpanded_e57789 .smallRegisterLink__04c66 ::after {
   content: " with Discord";
+}
+
+.errorPage_da3c8d .title__73f9a {
+  color: rgb(var(--GC-accent));
+  font-size: 0;
+}
+.errorPage_da3c8d .title__73f9a:before {
+  content: "GH0STCH4TT3R CRASHED";
+  font-size: 25px;
+}
+.errorPage_da3c8d .note__35490 {
+  color: rgb(var(--GC-accent));
+  width: 500px;
+  margin-left: -5%;
+  margin-right: auto;
+}
+.errorPage_da3c8d .note__35490 p {
+  font-size: 0;
+  line-height: 0;
+}
+.errorPage_da3c8d .note__35490 p:first-child:before {
+  content: "The Discord core program encountered a pretty severe error and panicked.";
+  font-size: medium;
+}
+.errorPage_da3c8d .note__35490 p:last-child:before {
+  content: "We suspect one of your addons may be causing issues. Try disabling some.";
+  font-size: medium;
+}
+.errorPage_da3c8d .note__35490::after {
+  content: "Restart Discord to continue using GH0STCH4TT3R";
+}
+.errorPage_da3c8d .button_afdfd9 {
+  border: solid 1px rgb(var(--GC-accent));
+  background-color: rgba(var(--GC-accent), 0.2);
+}
+.errorPage_da3c8d .button_afdfd9:hover {
+  background-color: rgba(var(--GC-accent), 0.4);
+  filter: drop-shadow(5px);
+}
+.errorPage_da3c8d .image_dabcb8 {
+  background-image: url("https://raw.githubusercontent.com/Nexus-Themes/GH0STCH4TT3R/master/assets/ErrorNotice-Icon.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+body:has(.errorPage_da3c8d) .wrapper__246a1 {
+  background-image: none;
 }
