@@ -1,5 +1,5 @@
-.errorPage_da3c8d {
-    .title__73f9a {
+.errorPage_a41002 {
+    .title__5060d {
         color: rgb(var(--GC-accent));
         font-size: 0;
         &:before {
@@ -28,7 +28,7 @@
             content: "Restart Discord to continue using GH0STCH4TT3R";
         }
     }
-    .button_afdfd9 {
+    .button__581d0 {
         border: solid 1px rgb(var(--GC-accent));
         background-color: rgba(var(--GC-accent), .2);
         &:hover {
@@ -36,13 +36,13 @@
             filter: drop-shadow(5px);
         }
     }
-    .image_dabcb8 {
+    .image_e0cb48 {
             background-image: url('https://raw.githubusercontent.com/Nexus-Themes/GH0STCH4TT3R/master/assets/ErrorNotice-Icon.png');
             background-size: contain;
             background-position: center;
             background-repeat: no-repeat;
     }
 }
-body:has(.errorPage_da3c8d) .wrapper__246a1 {
+body:has(.errorPage_a41002) .wrapper__77675 {
     background-image: none;
 }

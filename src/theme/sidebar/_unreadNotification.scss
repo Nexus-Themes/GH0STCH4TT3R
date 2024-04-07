@@ -1,17 +1,17 @@
 // Make channels and servers with an unread mention pulse with your selected color
 
-.privateChannelsHeaderContainer_ddcec6
+.privateChannelsHeaderContainer_b22dc9
   ~ li
-  .highlighted__7bba7
+  .highlighted_e2e5df
   > .avatar__7bd22,
-.containerDefault__3187b:has(.mentionsBadge_c2f85b) .iconContainer__3f9b0 {
+.containerDefault_ae2ea4:has(.mentionsBadge__3d019) .iconContainer__6a580 {
   box-shadow: 0 0 10px 0.3px rgb(var(--GC-accent));
   border-radius: 0;
   border: 2px solid rgb(var(--GC-accent));
   transform: scale(1);
   animation: pulse 3s infinite;
 }
-.listItem_fa7b36:has(.lowerBadge__669e7) {
+.listItem__48528:has(.lowerBadge_e89e22) {
   box-shadow: 0 0 10px 0.3px rgb(var(--GC-accent));
   border-radius: 0;
   border: 2px solid rgb(var(--GC-accent));
@@ -51,7 +51,7 @@
   }
 }
 // Make pings not red
-.numberBadge__50328,
-.mention__1afd3 {
+.numberBadge__40d6f,
+.mention_dd733a {
   background-color: transparent !important;
 }

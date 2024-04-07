@@ -1,4 +1,4 @@
-.chatContent__5dca8 {
+.chatContent_f087cb {
   border-right: 1px solid rgb(var(--GC-accent));
   border-top: 1px solid rgb(var(--GC-accent));
   border-left: 1px solid rgb(var(--GC-accent));
@@ -10,14 +10,14 @@
 }
 
 //fix forums
-.container_b181b6 {
+.container_b92032 {
   background-color: rgba(0, 0, 0, 0.5) !important;
   margin-top: 49px;
   border: solid 1px rgb(var(--GC-accent));
 }
 //top bar fix for when chat is open in side view with forums
 body:has(.card__691f2):has(.chat__1d65d) {
-  .container_def45c {
+  .container__694a1 {
     position: absolute;
     right: 0;
     top: 50px;
@@ -26,20 +26,20 @@ body:has(.card__691f2):has(.chat__1d65d) {
     border-bottom: solid 1px rgb(var(--GC-accent));
     border-radius: 0;
   }
-  .container__11d72:not(.title_b7d661) {
+  .container__26baa:not(.title_d4ba1a) {
     padding: 0;
   }
 }
-body:has(.card__691f2):has(.chat__1d65d):has(.container_def45c) {
-  .content__1a4fe {
+body:has(.card__691f2):has(.chat__1d65d):has(.container__694a1) {
+  .content__01e65 {
     padding-right: 638px;
   }
-  .container__11d72 {
+  .container__26baa {
     width: 100%;
     background-color: rgba(0, 0, 0, 0.5)!important;
     border-right: solid 1px rgb(var(--GC-accent));
   }
-  .title_b7d661 {
+  .title_d4ba1a {
     position: absolute;
     min-width: calc(100% - 347px);
   }
@@ -47,32 +47,32 @@ body:has(.card__691f2):has(.chat__1d65d):has(.container_def45c) {
 
 
 //Fix Channels and roles page
-body:has(.prompt__1b100, .browser_c50ce0) {
+body:has(.prompt__1b100, .browser__428d5) {
   .chat__52833 {
-    .content__1a4fe {
+    .content__01e65 {
       border-left: 1px solid rgb(var(--GC-accent));
     }
     .tabBar_d4764b {
       margin-top: 70px;
     }
-    .container__11d72:not(.title_b7d661) {
+    .container__26baa:not(.title_d4ba1a) {
       padding: 0;
     }
-    .content__1a4fe, .chat__52833 {
+    .content__01e65, .chat__52833 {
       background: rgba(0, 0, 0, 0.5);
     }
     .prompt__1b100 {
       background-color: rgba(0, 0, 0, 0.5);
       border: 1px solid rgb(var(--GC-accent))!important;
-      .promptOptions__8e373 {
-        .optionButtonWrapper__4072c {
+      .promptOptions__9b66e {
+        .optionButtonWrapper_c86844 {
           border: 2px dotted rgba(var(--GC-accent-muted), 0.2);
           &:hover {
             background-color: rgba(var(--GC-accent), .2);
             filter: drop-shadow(5px);
           }
         }
-        .selected__90dd8 {
+        .selected__31118 {
           background-color: rgba(var(--GC-accent-muted), 0.2);
           border: 1px solid rgb(var(--GC-accent));
         }

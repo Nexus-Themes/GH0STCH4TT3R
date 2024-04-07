@@ -1,4 +1,4 @@
-#my-account-tab>div>div:nth-child(1)>div.sectionTitle_e32631>h2 {
+#my-account-tab>div>div:nth-child(1)>div.sectionTitle__3e02b>h2 {
     font-size: 0px;
     line-height: 0px;
     &:before {
@@ -8,21 +8,21 @@
         line-height: 24px;
     }
 }
-#my-account-tab .accountProfileCard__22589 {
+#my-account-tab .accountProfileCard__744d8 {
     background-color: rgba(0, 0, 0, 0.5);
     border: inset 2px rgb(var(--GC-accent));
-    .bannerSVGWrapper__3e7b0 {
+    .bannerSVGWrapper__8a38c {
         foreignObject {
             mask-image: none;
         }
     }
-    .userInfo__8f826 {
-        .avatar__6c108, .wrapper_edb6e0, foreignObject {
+    .userInfo_fb7651 {
+        .avatar__6c108, .wrapper__3ed10, foreignObject {
             border: solid 1px rgb(var(--GC-accent));
             border-radius: 5px!important;
             top: 100px;
         }
-        .button_afdfd9 {
+        .button__581d0 {
             border: solid 1px rgb(var(--GC-accent));
             background-color: rgba(var(--GC-accent), .2);
             &:hover {
@@ -30,19 +30,19 @@
                 filter: drop-shadow(5px);
             }
         }
-        .overflowMenuIcon__91663 {
+        .overflowMenuIcon_a3868f {
             display: none;
         }
     }
-    .fieldList_aab0de {
-        .usernameRow_ad2fb4 {
-            .usernameInnerRow__7f209{
+    .fieldList__4e6dd {
+        .usernameRow__25e5a {
+            .usernameInnerRow_c95e17{
                 &::before{
                     content: "@";
                 }
             }
         }
-        .fieldButton_a93f59 {
+        .fieldButton__1edf0 {
             border: solid 1px rgb(var(--GC-accent));
             background-color: rgba(var(--GC-accent), .2);
             &:hover {
@@ -50,14 +50,14 @@
                 filter: drop-shadow(5px);
             }
         }
-        .removeButton__731bd {
+        .removeButton_dcb1e3 {
             border: solid 1px rgb(255, 0, 0);
             background-color: rgba(255, 0, 0, .1);
             &:hover {
                 background-color: rgba(255, 0, 0, .2);
                 filter: drop-shadow(5px);
             }
-            .contents_fb6220 {
+            .contents__322f4 {
                 color: rgb(252, 44, 44)!important;
             }
         }

@@ -7,11 +7,11 @@
 .guilds__2b93a .tree__7a511:focus {
   outline-color: transparent;
 }
-.guilds__2b93a .scroller__3d071 {
+.guilds__2b93a .scroller_de945b {
   contain: unset;
   margin-top: 56px;
 }
-.guilds__2b93a .scroller__3d071 .tutorialContainer__890ea {
+.guilds__2b93a .scroller_de945b .tutorialContainer_b06ae6 {
   position: fixed;
   transform: translatey(-140%);
 }
@@ -20,20 +20,20 @@
 
 #app-mount
   .guilds__2b93a
-  .tutorialContainer__890ea
-  .listItem_fa7b36:first-child
-  .wrapper_d281dd:before {
+  .tutorialContainer_b06ae6
+  .listItem__48528:first-child
+  .wrapper__8436d:before {
   content: "";
   border-radius: 50%;
   position: absolute;
-  background: url("https://Riddim-GLiTCH.hacked-your.tech/content/cdn/lxfsxooRoykJ.png");
+  background: url("https://raw.githubusercontent.com/Nexus-Themes/GH0STCH4TT3R/master/assets/Home-titlebar-icon.png");
   background-size: contain;
   background-position: center;
   height: 100%;
   width: 100%;
   transition: 0.2s ease;
 }
-.homeIcon__00b1b,
-.tutorialContainer__890ea .childWrapper__01b9c {
+.homeIcon__560eb,
+.tutorialContainer_b06ae6 .childWrapper_a6ce15 {
   display: none;
 }

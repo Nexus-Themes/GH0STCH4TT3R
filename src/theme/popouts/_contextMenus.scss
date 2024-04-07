@@ -1,4 +1,4 @@
-.scroller__750f5 {
+.scroller__8f066 {
   padding: 6px 8px;
   margin: -10px;
   line-clamp: 5px;
@@ -9,16 +9,19 @@
   // backdrop-filter: brightness(50%) !important;
   text-shadow: 0 0 5px currentColor;
 }
-.colorDefault__0b482 {
+.colorDefault_e361cf {
   color: rgb(var(--GC-accent));
 }
-.label__73cb9 {
+.label__563c3 {
   filter: drop-shadow(0 0 5px currentColor, 0.5);
 }
 
-.labelContainer_bc2861.colorDanger_eec36d {
-  color: red !important;
+.labelContainer__4f869.colorDanger__08c25 {
+  color: red;
   filter: drop-shadow(0 0 5px red, 0.5) !important;
+  &:hover{
+    color: white;
+  }
 }
 .item__183e8 {
   margin-bottom: -2px;

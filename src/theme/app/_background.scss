@@ -1,27 +1,27 @@
 #app-mount,
 .app_de4237,
-.base__3e6af,
-.container__11d72,
-.sidebar_ded4b5 + div,
-.chatContent__5dca8,
-.content__4bf10,
-.layer__2efaa,
+.base_c0676e,
+.container__26baa,
+.sidebar_e031be + div,
+.chatContent_f087cb,
+.content__76dcf,
+.layer_f7d46a ,
 .app_b1f720,
-.appMount_fae9dd,
+.appMount_c99875,
 body,
 .bg__12180,
-.container__7590f,
-.container__10dc7,
-.header__60bef,
-.callContainer_cbde45 {
+.container__6b2e5,
+.container__03ec9,
+.header__71942,
+.callContainer__1477d {
   background: transparent;
 }
 body {
-  background: var(--wallpaper);
+  background: url(https://raw.githubusercontent.com/Nexus-Themes/GH0STCH4TT3R/master/assets/back.png);
   background-position: center;
   background-size: cover;
 }
-.container__11d72 {
+.container__26baa {
   background-color: rgba($color: #000000, $alpha: 0) !important;
 }
 :root {
@@ -41,10 +41,10 @@ body {
   --button-secondary-background-disabled: var(--primary-430);
   --button-secondary-background-hover: hsl(var(--primary-560-hsl) / 0.2);
 }
-.base__3e6af {
+.base_c0676e {
   border-top-left-radius: 5px;
 }
-.innerWrapper__8cde3 {
+.innerWrapper_cfb768 {
   background-color: hsl(var(--primary-560-hsl) / 0.3) !important;
 }
 .theme-dark {
@@ -69,19 +69,19 @@ body {
   --text-normal: var(--black-500);
   --text-muted: var(--black-400);
 }
-.content__1a4fe:before,
-.form__13a2c:before,
-.children__32014:after {
+.content__01e65:before,
+.form_d8a4a1:before,
+.children_cde9af:after {
   content: none;
 }
-.header__104ca,
-.searchBar_e4ea2a {
+.header__77c95,
+.searchBar__621ec {
   box-shadow: none;
 }
 
 // Apply a custom image to the chat window, can be used for watermarking.
-.messagesWrapper_ea2b0b {
-  background-image: url(https://Riddim-GLiTCH.hacked-your.tech/content/cdn/dmPdvNZUIOgG/Name.png);
+.messagesWrapper_add28b {
+  background-image: url(https://raw.githubusercontent.com/Nexus-Themes/GH0STCH4TT3R/master/assets/Name.png);
   background-position: center;
   background-repeat: no-repeat;
 }

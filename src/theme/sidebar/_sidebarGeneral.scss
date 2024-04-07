@@ -1,9 +1,9 @@
-.container_de798d {
+.container__43554 {
   color: rgb(var(--GC-accent));
 }
 
 /*! consistent top bar - extends member list !*/
-.chat__52833 .container__11d72 {
+.chat__52833 .container__26baa {
   max-width: calc(100% - 355px);
   height: 50px;
   border: 1px solid rgb(var(--GC-accent)) !important;
@@ -11,59 +11,59 @@
   border-radius: 0 0 0 0;
   background-color: rgba($color: #000000, $alpha: 0.5) !important;
 }
-.header__104ca {
+.header__77c95 {
   background-color: rgba($color: #000000, $alpha: 0.5) !important;
   border: 1px solid rgb(var(--GC-accent)) !important;
   width: 245px;
 }
-.chat__52833:has(.profilePanel__12596) .container__11d72 {
+.chat__52833:has(.profilePanel_e2cafe) .container__26baa {
   max-width: calc(100% - 340px);
   position: absolute;
   border-radius: 0 0 0 0;
 }
 
-.chat__52833:has(.searchResultsWrap__9f374) .container__11d72 {
+.chat__52833:has(.searchResultsWrap__2e184) .container__26baa {
   max-width: calc(100% - 345px);
   position: absolute;
   border-radius: 0 0 0 0;
   background-color: var(--background-primary) !important;
 }
 
-.chat__52833:has(.container_b2ce9c, .membersWrap__90226, .profilePanel__12596)
-  .chatContent__5dca8,
+.chat__52833:has(.container_f79ab4, .membersWrap__5ca6b, .profilePanel_e2cafe)
+  .chatContent_f087cb,
 .grid-21dB-S,
 .list-3FIpnh {
   margin-top: 48px;
   border-radius: 0 0 0 0;
 }
 
-.searchHeader__19d87 {
+.searchHeader__4d70e {
   height: 48px;
 }
 
-.container__037ed .sidebar_ded4b5 {
+.container_d1f8f5 .sidebar_e031be {
   border-radius: 0 0 0 0;
 }
 
-.content__1a4fe::before {
+.content__01e65::before {
   display: none;
 }
 // Iconify the Search bar - Snippet by Kaestral
-.iconContainer__8fa9c,
-.icon_f50f05 {
+.iconContainer__9f124,
+.icon__5c8c7 {
   width: 24px;
   height: 24px;
 }
 
-.searchBar_e0c60b {
+.searchBar__5a20a {
   width: 24px;
   height: 24px;
   padding: 0;
 }
 
-.focused_ddee54 .searchBar_e0c60b,
-.open_d3ab4e .searchBar_e0c60b,
-.searchBar_e0c60b:hover {
+.focused__037a4 .searchBar__5a20a,
+.open_d3ab4e .searchBar__5a20a,
+.searchBar__5a20a:hover {
   width: 150px;
   height: 25px;
 }
@@ -74,7 +74,7 @@
 }
 
 // Tooltip shit
-.tooltip__01384 {
+.tooltip__7b090 {
   background-image: var(--wallpaper) !important;
   background-position: top;
   background-size: cover;
@@ -82,12 +82,12 @@
 }
 
 //Funny Divider
-.sidebar_ded4b5 {
-  .scroller_f0f183 {
+.sidebar_e031be {
+  .scroller__1f498 {
   margin-right: -10px;
-    .content__23cab {
+    .content__690c5 {
       width: 240px;
-      .containerDefault__23a29 {
+      .containerDefault_e3b32b {
         border-bottom: 1px solid rgb(var(--GC-accent));
         background: linear-gradient(rgba(0, 0, 0, 0.0)65%, rgba(var(--GC-accent), .5)99.9%);
         margin-left: 0;
@@ -96,14 +96,14 @@
     }
   }
 }
-.container_b2ce9c {
-  .membersWrap__90226 {
-    .members__9f47b {
+.container_f79ab4 {
+  .membersWrap__5ca6b {
+    .members__573eb {
       margin-left: 15px;
       width: 370px!important;
-      .content__23cab {
+      .content__690c5 {
        width: 355px;
-       .membersGroup__85843 {
+       .membersGroup_cad095 {
          border-bottom: 1px solid rgb(var(--GC-accent));
          background: linear-gradient(rgba(0, 0, 0, 0.0)65%, rgba(var(--GC-accent), .5)99.9%);
          margin-left: 0;
@@ -116,8 +116,8 @@
 
 
 // Selected Channel redesign
-.sidebar_ded4b5 .containerDefault__3187b {
-  .link__95dc0 {
+.sidebar_e031be .containerDefault_ae2ea4 {
+  .link_ddbb36 {
     transition: all ease-in-out 0.3s;
     margin-right: 10px;
     &:hover {
@@ -128,7 +128,7 @@
       }
     }
   }
-  &:has(.modeSelected__487d6) .link__95dc0{
+  &:has(.modeSelected__473f1) .link_ddbb36{
     background-color: rgba(var(--GC-accent), 0.2);
     border: 3px inset rgb(var(--GC-accent));
     &:hover ::before{

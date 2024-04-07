@@ -1,9 +1,9 @@
-.characterBackground__2820f {
-    .artwork__8fc92{
+.characterBackground__1966f {
+    .artwork__94141{
         display: none;
     }
-    .wrapper__2d9b1 {
-        .authBox__7196a:has(.accountCard_b2af27) {
+    .wrapper_f5f4c9 {
+        .authBox__6f336:has(.accountCard__21066) {
             background-color: rgba(0, 0, 0, 0.5);
             background-image: url('https://raw.githubusercontent.com/Nexus-Themes/GH0STCH4TT3R/master/assets/Titlebar-icon.png');
             background-position: center 20px;
@@ -11,7 +11,7 @@
             background-repeat: no-repeat;
             padding-top: 140px;
             border: solid 1px rgb(var(--GC-accent));
-                .centeringWrapper__319b0 {
+                .centeringWrapper__5e247 {
                 &::before{
                     margin-top: 20px;
                     content: "Welcome to GH0STCH4TT3R";
@@ -21,20 +21,20 @@
                 .list__4e6aa {
                     background-color: rgba(0, 0, 0, 0.5);
                     margin: 5px;
-                    .accountCard_b2af27 {
+                    .accountCard__21066 {
                         background: linear-gradient(to left, rgba(var(--GC-accent), .2) 20%, rgba(0, 0, 0, 0) 75%);
                         border-radius: 5px;
                         border: solid 1px rgb(var(--GC-accent));
-                        .usernameSection_ccd090 {
-                            .username__35d9d {
+                        .usernameSection_e14676 {
+                            .username__20f97 {
                                 :first-child:before{
                                     content: "@";
                                     color: var(--header-secondary)!important;
                                 }
                             }
                         }
-                        .userActions__8fade {
-                            .button_afdfd9{
+                        .userActions__6955d {
+                            .button__581d0{
                                 border: solid 1px rgb(var(--GC-accent));
                                 background-color: rgba(var(--GC-accent), .2);
                                 &:hover {
@@ -43,7 +43,7 @@
                                 }
                             }
                         }
-                        .wrapper_edb6e0 {
+                        .wrapper__3ed10 {
                             height: 64px;
                             width: 64px!important;
                             margin-left: -16px;
@@ -61,8 +61,8 @@
                         }
                     }
                 }
-                .actions_dff0e0 {
-                    .button_afdfd9 {
+                .actions_bbd75a {
+                    .button__581d0 {
                         border: solid 1px rgb(var(--GC-accent));
                         background-color: rgba(var(--GC-accent), .2);
                         border-radius: 5px;
@@ -73,14 +73,14 @@
                     }
                 }
             }
-            .contents_fb6220 {
+            .contents__322f4 {
                 --button--underline-color: transparent!important;
             }
         }
-        .authBoxExpanded_e57789 {
+        .authBoxExpanded__1da99 {
             background-color: rgba(0, 0, 0, 0.5);
             border: solid 1px rgb(var(--GC-accent));
-            .mainLoginContainer__58502 .header_feace3 {
+            .mainLoginContainer_f58870 .header_b79c4b {
                 margin-top: 40px;
                 &::before {
                     content: "Welcome back to GH0STCH4TT3R!";
@@ -93,7 +93,7 @@
                     content: "Please sign in with your Discord Account.";
                 }
             }
-            .button__47891 {
+            .button__5573c {
                 border: solid 1px rgb(var(--GC-accent));
                 background-color: rgba(var(--GC-accent), .2);
                 &:hover {
@@ -101,23 +101,23 @@
                     filter: drop-shadow(5px);
                 }
             }
-            .input_d266e7 {
+            .input_f27786 {
                 background-color: rgba(0, 0, 0, .0);
             }
-            .inputWrapper__934f5 {
+            .inputWrapper_ecb776 {
                 background-color: rgba(0, 0, 0, 0.5);
                 border-bottom: 2px solid rgb(var(--GC-accent));
                 border-top-left-radius: 5px;
                 border-top-right-radius: 5px;
             }
-            .header_feace3 .heading-xl-semibold__18cc2, .header_feace3 .text-md-normal__4afad {
+            .header_b79c4b .heading-xl-semibold__5e86c, .header_b79c4b .text-md-normal__6e567 {
                 display: none;
             }
-            .goBackButton__8dc9e {
+            .goBackButton__43fd3 {
                 position: absolute;
                 top: 20px;
             }
-            .smallRegisterLink__04c66 {
+            .smallRegisterLink__61994 {
                 display: inline;
                 ::after {
                     content: " with Discord";
