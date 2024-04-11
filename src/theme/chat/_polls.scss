@@ -1,0 +1,60 @@
+[class*=pollBadgeDefault_] {
+    display: none;
+}
+[class*=pollContainer] {
+    margin-top: -3px;
+    border-radius: 10px;
+    border-top-left-radius: 0px !important;
+    background: rgba(var(--GC-accent-muted), 0.03);
+    border: 1px solid rgb(var(--GC-accent));
+    clip-path: polygon(
+        0 0px,
+        10px 0,
+        calc(100% - 10px) 0,
+        100% 10px,
+        100% calc(100% - 10px),
+        calc(100% - 10px) 100%,
+        10px 100%,
+        0% calc(100% - 10px),
+        0% 10px
+      ) !important;
+      &:hover {
+        // background: rgba(var(--GC-accent-muted), 0.03);
+      }
+    //   filter: drop-shadow(0 0 5px rgb(var(--GC-accent)));
+      [class*=infoButton] {
+        // position: absolute;
+        width: 50px;
+        svg {
+            display: none;
+        }
+        &:before {
+            position: absolute;
+            right: 18px;
+            top: 15px;
+            content: "Poll";
+            font-size: 3rem;
+            filter: none!important;
+        }
+    }
+    [type=button] {
+        border: 1px solid rgb(var(--GC-accent));
+        background-color: rgba(var(--GC-accent), .03);
+        &:hover {
+            background-color: rgba(var(--GC-accent), .1);
+        }
+    }
+    .fontScaling__56c42 {
+        margin: 6px
+    }
+    .answerSelectionIcon__262f4 {
+        position: absolute;
+        right: 15px;
+    }
+    [type=button]:disabled {
+        background-color: transparent!important;
+        &:hover {
+            
+        }
+    }
+}
